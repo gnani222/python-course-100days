@@ -1,0 +1,43 @@
+'''n1= int(input())
+n2 = int(input())
+n= (n1/100)*n2
+print(n1+n)
+'''
+'''
+s1 = int(input())
+s2 = int(input())
+s3 = int(input())
+s4 = int(input())
+s5 = int(input())
+t = (s1+s2+s3+s4+s5)
+a = (t/5)
+print(t)
+print(a)
+'''
+"""
+INR = float(input())
+usd = float(input())
+d = (INR/usd)
+print(d)
+
+# case_count(text)
+def count_case(s):
+    upper = 0
+    lower = 0
+    for ch in s:
+        if ch.isupper():
+            upper += 1
+        elif ch.islower():
+            lower+=1
+
+    print("uc letters",upper)
+    print("lc letters",lower)
+text = input("Enter a string:")
+count_case(text)
+"""
+#convertion of case
+text = input("Enter a string:")
+print(text.title())
+print("uppercase",text.upper())
+print("lowercase",text.lower())
+print("converted string:",text.swapcase())
